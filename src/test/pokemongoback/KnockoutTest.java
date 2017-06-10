@@ -25,8 +25,14 @@ public class KnockoutTest {
 		Pokemon pikachu = new Pokemon(1,"Pikachu",newPokemon2Stage, 60, newAbilities); 
 		
 		System.out.println(pikachu.getDamage());
-		pikachu.addDamage(70);
-		
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
+		pikachu.addDamage(10);
 		
 		System.out.println(pikachu.getDamage());
 		
